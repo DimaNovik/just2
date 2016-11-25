@@ -1,0 +1,116 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.sell_right .button {
+		margin: 15px auto;
+		float: none;
+		max-width: 250px;
+	}
+	.sell_descr {
+		text-align: center;
+	}
+
+	.maian_mnu ul {
+		background-color: #3797bf;
+		display: none;
+		position: absolute;
+		width: 100%;
+	}
+	.maian_mnu ul li {
+		display: block;
+	}
+
+	.alert_danger {
+	width: 550px;
+	background-color: #f995a6;
+	border-radius: 10px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+
+	.alert_danger {
+	width: 350px;
+	background-color: #f995a6;
+	border-radius: 10px;
+}
+
+.text {
+  background-color: #c4c4c4;
+  color: #000;
+  font-size: 16px;
+  padding: 10px 10px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.blog_item img {
+	width: 50%;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.blog_item h3 {
+	margin-top: 0;
+	font-size: 14px;
+}
+
+.blog_item p {
+	margin-top: 0;
+	font-size: 12px;
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.top_links {
+		display: inline-block !important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.maian_mnu ul {
+		display: block !important;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
